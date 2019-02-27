@@ -1,27 +1,45 @@
 {
-    "places": [
-      {
-        "id": 1,
-        "name": "Italy",
-        "visa_required": false
-      },
-      {
-        "id": 2,
-        "name": "Switzerland",
-        "visa_required": true
-      },
-      {
-        "id": 3,
-        "name": "France",
-        "visa_required": false
-      }
-    ],
-    "interests": [
-      {
-        "id": 1,
-        "placeId": 1,
-        "name": "Local Market",
-        "description": "Local market where you can try purchase local products and try the local food"
-        }
-    ]
-  }
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "placeId": 1,
+      "name": "Local Market",
+      "description": "Local market where you can try purchase local products and try the local food"
+    },
+    {
+      "placeID": "1",
+      "name": "asfdasdf",
+      "description": "asdf",
+      "id": 2
+    },
+    {
+      "placeID": "1",
+      "name": "sdsdfsdf",
+      "description": "",
+      "id": 3
+    },
+    {
+      "placeID": "1",
+      "name": "asdfasdfasdf",
+      "description": "sadfasdfasd",
+      "id": 4
+    }
+  ]
+}

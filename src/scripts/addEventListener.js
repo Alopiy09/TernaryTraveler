@@ -8,6 +8,9 @@ const addEventListener = () =>{
         let description = document.querySelector("#descriptionInput").value
         let placeId = document.querySelector("#locationDropDown").value
         let saveObject = interestsObject(name, description, placeId)
-        dataManager.
+        dataManager.postObject(saveObject)
+        .then(location.reload())
     })
 }
+
+export default addEventListener

@@ -9,8 +9,11 @@ const dataManager = {
     })
     },
 
-
-
+    deleteObject: (objectId) => {
+        return fetch(`http://127.0.0.1:8080/interests/${objectId}`, {
+            method: "DELETE"
+        })
+    },
 
     getPointsOfInterests: function () {
         return fetch("http://localhost:8088/interests?_expand=place")
