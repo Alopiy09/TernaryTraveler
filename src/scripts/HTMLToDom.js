@@ -5,8 +5,10 @@ let outputContainer = document.querySelector("#output")
 
 const interestsToDom = () => {
     dataManager.getPointsOfInterests()
-    .then((arrayOfInterest) => {arrayOfInterest.forEach(interest => {
-       outputContainer.innerHTML += interestsToHTML(interest)
-        )}
-        )
+        .then((arrayOfInterest) => {
+            arrayOfInterest.forEach(interest => {
+                outputContainer.innerHTML += interestsToHTML(interest)
+            })
+        })
 }
+export default interestsToDom
