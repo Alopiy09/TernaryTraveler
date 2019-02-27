@@ -22,6 +22,18 @@
       "placeId": 1,
       "name": "Local Market",
       "description": "Local market where you can try purchase local products and try the local food"
+    },
+    {
+      "name": "asdfasdf",
+      "description": "asdfasfd",
+      "placeId": "1",
+      "id": 2
+    },
+    {
+      "name": "asdf",
+      "description": "sadf",
+      "placeId": "1",
+      "id": 3
     }
   ]
 }
