@@ -5,6 +5,7 @@ const dataManager = {
         headers: {
             "Content-Type":"application/json"
         },
+
         body: JSON.stringify(saveObject)
     })
     },
@@ -16,7 +17,7 @@ const dataManager = {
     },
 
     getPointsOfInterests: function () {
-        return fetch("http://localhost:8088/interests?_expand=place")
+        return fetch("http://localhost:8088/interests?_embed=place")
         .then(res => res.json()
         )
     }

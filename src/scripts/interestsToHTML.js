@@ -6,7 +6,7 @@ let interestsToHTML = (interest) => {
     <h1>${interest.name}</h1>
     <article>${interest.description}</article>
     <div>Place to visit:${interest.place.name}</div>
-    <button id="delete--Button--${interest.id}>Delete</button>
+    <button id=deleteButton--${interest.id}>Delete</button>
     </section>
     `
 }
